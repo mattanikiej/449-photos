@@ -51,6 +51,14 @@ img {
     object-fit: cover;
 }
 
+.details-image {
+    aspect-ratio: 1/1;
+    width: 600px;
+    border: #18453B solid 5px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 .img-container {
     margin: 2rem;
 }
@@ -60,4 +68,28 @@ img {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.details-section {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.details-text {
+    max-width: 75%;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.return-button {
+    width: 20%;
+}
+
+#link-img:hover {
+    box-shadow: 10px 10px black;
+    transition: 0.2s ease-in-out;
 }
